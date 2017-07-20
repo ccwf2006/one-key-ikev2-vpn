@@ -1,0 +1,13 @@
+tncif_policy.lo: tncif_policy.c /usr/include/stdc-predef.h \
+ /root/one-key-ikev2-vpn/strongswan-5.5.1/config.h tncif_policy.h \
+ tncifimv.h tncif.h
+
+/usr/include/stdc-predef.h:
+
+/root/one-key-ikev2-vpn/strongswan-5.5.1/config.h:
+
+tncif_policy.h:
+
+tncifimv.h:
+
+tncif.h:
