@@ -474,11 +474,11 @@ configure:17493: checking lex output file root
 configure:17507: result: lex.yy
 configure:17512: checking lex library
 configure:17526: gcc -o conftest -g -O2 -Wall -Wno-format -Wno-format-security -Wno-pointer-sign  -L/usr/local/lib conftest.c   >&5
-/tmp/cc1H5vC7.o: In function `input':
+/tmp/ccEAWgQk.o: In function `input':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/lex.yy.c:1170: undefined reference to `yywrap'
-/tmp/cc1H5vC7.o: In function `yylex':
+/tmp/ccEAWgQk.o: In function `yylex':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/lex.yy.c:869: undefined reference to `yywrap'
-/tmp/cc1H5vC7.o: In function `main':
+/tmp/ccEAWgQk.o: In function `main':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/conftest.l:18: undefined reference to `yywrap'
 collect2: error: ld returned 1 exit status
 configure:17526: $? = 1
@@ -5872,11 +5872,11 @@ configure: failed program was:
 configure:17536: result: none needed
 configure:17542: checking whether yytext is a pointer
 configure:17559: gcc -o conftest -g -O2 -Wall -Wno-format -Wno-format-security -Wno-pointer-sign  -L/usr/local/lib conftest.c   >&5
-/tmp/ccg5J8kd.o: In function `input':
+/tmp/ccGpEw9r.o: In function `input':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/lex.yy.c:1170: undefined reference to `yywrap'
-/tmp/ccg5J8kd.o: In function `yylex':
+/tmp/ccGpEw9r.o: In function `yylex':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/lex.yy.c:869: undefined reference to `yywrap'
-/tmp/ccg5J8kd.o: In function `main':
+/tmp/ccGpEw9r.o: In function `main':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/conftest.l:18: undefined reference to `yywrap'
 collect2: error: ld returned 1 exit status
 configure:17559: $? = 1
@@ -7991,7 +7991,7 @@ configure: failed program was:
 configure:18397: result: no
 configure:18412: checking for library containing dlopen
 configure:18443: gcc -o conftest -g -O2 -Wall -Wno-format -Wno-format-security -Wno-pointer-sign  -L/usr/local/lib conftest.c  >&5
-/tmp/ccmRJn1p.o: In function `main':
+/tmp/ccQZT6eF.o: In function `main':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/conftest.c:41: undefined reference to `dlopen'
 collect2: error: ld returned 1 exit status
 configure:18443: $? = 1
@@ -8057,7 +8057,7 @@ configure:18574: $? = 0
 configure:18591: result: none required
 configure:18645: checking for library containing pthread_create
 configure:18676: gcc -o conftest -g -O2 -Wall -Wno-format -Wno-format-security -Wno-pointer-sign  -L/usr/local/lib conftest.c -ldl  >&5
-/tmp/ccY3VnX5.o: In function `main':
+/tmp/cctnYo9f.o: In function `main':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/conftest.c:42: undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 configure:18676: $? = 1
@@ -8130,7 +8130,7 @@ configure:18830: $? = 0
 configure:18830: result: yes
 configure:18842: checking for pthread_cond_timedwait_monotonic
 configure:18842: gcc -o conftest -g -O2 -Wall -Wno-format -Wno-format-security -Wno-pointer-sign  -L/usr/local/lib conftest.c -lpthread -ldl  >&5
-/tmp/cctkV3oI.o: In function `main':
+/tmp/cc5taaep.o: In function `main':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/conftest.c:68: undefined reference to `pthread_cond_timedwait_monotonic'
 collect2: error: ld returned 1 exit status
 configure:18842: $? = 1
@@ -8225,7 +8225,7 @@ configure:18890: $? = 0
 configure:18890: result: yes
 configure:18901: checking for gettid
 configure:18901: gcc -o conftest -g -O2 -Wall -Wno-format -Wno-format-security -Wno-pointer-sign  -L/usr/local/lib conftest.c  >&5
-/tmp/ccsgjWN5.o: In function `main':
+/tmp/cc35OVKO.o: In function `main':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/conftest.c:72: undefined reference to `gettid'
 collect2: error: ld returned 1 exit status
 configure:18901: $? = 1
@@ -8336,7 +8336,7 @@ configure:19020: $? = 0
 configure:19020: result: yes
 configure:19020: checking for closefrom
 configure:19020: gcc -o conftest -g -O2 -Wall -Wno-format -Wno-format-security -Wno-pointer-sign  -L/usr/local/lib conftest.c  >&5
-/tmp/cciGsqtw.o: In function `main':
+/tmp/ccouLCGz.o: In function `main':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/conftest.c:79: undefined reference to `closefrom'
 collect2: error: ld returned 1 exit status
 configure:19020: $? = 1
@@ -8442,7 +8442,7 @@ configure:19032: $? = 0
 configure:19032: result: yes
 configure:19032: checking for funopen
 configure:19032: gcc -o conftest -g -O2 -Wall -Wno-format -Wno-format-security -Wno-pointer-sign  -L/usr/local/lib conftest.c  >&5
-/tmp/ccOs43MY.o: In function `main':
+/tmp/ccZ6GVy1.o: In function `main':
 /root/one-key-ikev2-vpn/strongswan-5.5.1/conftest.c:83: undefined reference to `funopen'
 collect2: error: ld returned 1 exit status
 configure:19032: $? = 1
@@ -10225,6 +10225,7 @@ config.status:1878: creating src/swanctl/swanctl.8
 config.status:1878: creating src/swanctl/swanctl.conf.5.head
 config.status:1878: creating src/swanctl/swanctl.conf.5.tail
 config.status:1878: creating config.h
+config.status:2059: config.h is unchanged
 config.status:2107: executing depfiles commands
 config.status:2107: executing libtool commands
 configure:28946: result: 
